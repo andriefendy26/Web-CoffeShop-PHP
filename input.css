@@ -1,0 +1,25 @@
+@tailwind base;
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1rem;
+
+}
+
+.navbar-logo .text h1 {
+    font-style: italic;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Brygada 1918', serif;
+    font-size: 25px;
+}
+
+
+@tailwind components;
+@tailwind utilities;
